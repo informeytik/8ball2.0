@@ -1,0 +1,1082 @@
+{
+  "name": "8Ball",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "XUsir",
+  "actions": [
+    {
+      "channel": "0",
+      "varName": "",
+      "info": "1",
+      "storage": "1",
+      "varName2": "kanalid",
+      "name": "Store Channel Info"
+    },
+    {
+      "storage": "1",
+      "varName": "kanalid",
+      "comparison": "1",
+      "value": "941714265704906822",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "5"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Błąd!",
+          "url": "",
+          "color": "RED",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Komendy można używać tylko na #𝓴𝓸𝓶𝓮𝓷𝓭𝔂!",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": true,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "min": "1",
+      "max": "20",
+      "name": "Generate Random Number"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"1\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "26"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"2\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "28"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"3\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "30"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"4\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "32"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"5\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "34"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"6\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "36"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"7\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "38"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"8\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "40"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"9\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "42"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"10\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "44"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"11\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "46"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"12\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "48"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"13\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "50"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"14\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "52"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"15\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "54"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"16\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "56"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"17\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "58"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"18\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "60"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"19\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "62"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "RandomNumber",
+      "comparison": "1",
+      "value": "\"20\"",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "1",
+        "iftrueVal": "64"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: To pewne.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Zdecydowanie tak.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Bez wątpienia.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Tak, z pewnością.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Możesz na tym polegać.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Tak jak ja to widzę, tak.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Najprawdopodobniej.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Z mojej perspektywy tak.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Tak.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Znaki wskazują na tak.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Nie znam na to odpowiedzi.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Spytaj ponownie później.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Lepiej ci teraz nie mówić.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Nie mogę teraz przewidzieć.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Skoncentruj się i zapytaj ponownie.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Nie licz na to.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Moja odpowiedź to nie.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Z moich źródeł wynika, że nie.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Z mojej pespektywy, nie.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "${slashParams(\"Pytanie\")}",
+          "url": "",
+          "color": "",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "Odpowiedź: Bardzo wątpliwe.",
+          "fields": [],
+          "author": "8Ball",
+          "authorUrl": "",
+          "authorIcon": "https://cdn.discordapp.com/attachments/905193992805826681/943569208409731172/8ball.png",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "4",
+  "description": "🎱 Pozwój alby 8ball zadecydował",
+  "parameters": [
+    {
+      "name": "Pytanie",
+      "description": "Pytanie, o które chcesz zapytać 8Ball",
+      "type": "STRING",
+      "required": true,
+      "choices": null
+    }
+  ]
+}
